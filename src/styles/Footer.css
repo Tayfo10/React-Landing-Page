@@ -1,0 +1,261 @@
+.footercontainer {
+  height: 120vh;
+  display: grid;
+  justify-items: center;
+  
+}
+
+.subscribe {
+  position: relative;
+  top: 4rem;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  width: 70rem;
+  
+  background: #fa7436;
+  border-radius: 16px;
+}
+
+.subscribe h2 {
+  width: 708px;
+  height: 124px;
+  font-family: "Volkhov";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.subscribebox {
+  display: grid;
+  justify-items: center;
+  position: relative;
+  top: -3rem;
+}
+
+.searchbox {
+  width: 674px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.searchbox h3 {
+  position: relative;
+  left: -1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 132px;
+  height: 50px;
+  background: #fa7436;
+  border-radius: 8px;
+  cursor: pointer;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.searchbox input {
+  position: relative;
+  right: -2rem;
+  border: 0px;
+  color: #999999;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.trabook {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 130px;
+  height: 24px;
+}
+
+.trabook svg {
+  position: relative;
+  left: -2rem;
+  cursor: pointer;
+}
+
+.leftpart {
+  display: grid;
+  justify-items: start;
+  position: relative;
+  top: -1.8rem;
+}
+
+.leftpart p {
+  width: 254px;
+  height: 64px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  color: #666666;
+}
+
+.info {
+  display: flex;
+  height: 600px;
+  width: 70rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rightpart {
+  display: flex;
+  width: 40rem;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.rightpart h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+
+  /* Primary B */
+
+  color: #222222;
+}
+
+.rightpart h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+
+  /* Paragraph */
+
+  color: #666666;
+}
+
+.border {
+  position: relative;
+  top: -8rem;
+  width: 68rem;
+  border-top: 1px solid rgba(153, 153, 153, 0.56);
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -5rem;
+  
+  width: 65rem;
+  justify-content: space-between;
+  
+}
+
+.copyright h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  /* Paragraph */
+
+  color: #666666;
+
+  opacity: 0.8;
+}
+
+.copyright h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: right;
+
+  /* Paragraph */
+
+  color: #666666;
+
+  opacity: 0.8;
+}
+
+#palm {
+  position: relative;
+  right: -30rem;
+}
+
+@media(max-width: 930px){
+
+  .footercontainer{
+    
+    position: relative;
+    top: 8rem;
+    left: 9rem;
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .subscribe{
+    scale: 0.5;
+    width: 850px;
+    position: relative;
+    left: -10rem;
+  }
+  .info{
+    scale: 0.7;
+  }
+  .rightpart{
+    display: none;
+  }
+  .leftpart{
+
+    position: relative;
+    top: -15rem;
+    left: 13rem;
+    scale: 1.5;
+    justify-items: center;
+  }
+  .border{
+    display: none;
+    
+  }
+
+  .copyright{
+    scale: 0.8;
+    position: relative;
+    left: -10rem;
+    justify-content: center;
+    top: -20rem;
+  }
+
+  .copyright h4 {
+    display: none;
+  }
+}

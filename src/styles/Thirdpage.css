@@ -1,0 +1,233 @@
+.thirdpage-bg {
+  background: #fefcfb;
+  height: 90vh;
+}
+
+.thirdpage-container {
+  margin-top: 3rem;
+  position: relative;
+  display: grid;
+
+  align-items: center;
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  display: grid;
+  justify-items: center;
+  position: relative;
+
+  left: -100px;
+  opacity: 0;
+}
+
+.subtitle {
+  width: 27rem;
+}
+
+.content h1 {
+  font-family: "Volkhov";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  /* identical to box height, or 112% */
+
+  /* Primary B */
+
+  color: #222222;
+}
+
+.content h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+
+  text-align: center;
+
+  /* Paragraph */
+
+  color: #666666;
+}
+.content span {
+  font-family: "Volkhov";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  /* identical to box height, or 112% */
+
+  /* Primary O */
+
+  color: #fa7436;
+}
+
+.card {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  position: relative;
+
+  left: -100px;
+  opacity: 0;
+}
+
+.card-1 {
+  position: relative;
+  display: grid;
+  box-sizing: border-box;
+  background: #fefcfb;
+  border: 2px solid rgba(102, 102, 102, 0.08);
+  border-radius: 8px;
+  margin-left: 1.5rem;
+}
+
+.upperpart {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.upperpart h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  color: #222222;
+  text-align: center;
+}
+
+.starcontent {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.starcontent h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Paragraph */
+
+  color: #666666;
+}
+
+.bottompart {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vectorpart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.vectorpart h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+
+  /* Paragraph */
+
+  color: #666666;
+}
+
+.dollarpart {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.dollarpart h3 {
+  margin-left: 0.5rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  text-decoration: line-through;
+  text-align: center;
+
+  /* Paragraph */
+
+  color: #666666;
+}
+
+.dollarpart h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Primary O */
+
+  color: #fa7436;
+  margin-left: 0.5rem;
+}
+
+#card1image {
+  object-fit: contain;
+  height: 22px;
+  width: 22px;
+}
+
+#cardpng {
+  height: 290px;
+  width: 270px;
+  object-fit: fill;
+  border-radius: 8px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.slider-btn {
+  position: relative;
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.slider-btn svg {
+  position: relative;
+  margin-left: 1.3rem;
+  margin-top: 0.6rem;
+  cursor: pointer;
+}
+
+
+@media (max-width:930px) {
+  .thirdpage-bg{
+    position: relative;
+    top: 15rem;
+  }
+}
